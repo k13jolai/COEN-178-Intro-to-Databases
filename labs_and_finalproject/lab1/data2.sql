@@ -1,0 +1,6 @@
+INSERT INTO mycourses VALUES(1,'A','ENGR1');
+INSERT INTO mycourses VALUES(5,'C','COEN177');
+INSERT INTO mycourses VALUES(5,'B', 'TESP175');
+INSERT INTO mycourses VALUES(5,'B','COEN70');
+INSERT INTO mycourses VALUES(5,'B','COEN 19');
+INSERT INTO mycourses VALUES(5,'C','COEN 11');

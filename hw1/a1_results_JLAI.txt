@@ -1,0 +1,227 @@
+SQL> start a1_tables_JLAI.sql
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+SQL> start a1_queries.SQL
+SP2-0310: unable to open file "a1_queries.SQL"
+SQL> start a1_queries_JLAI.sql
+
+no rows selected
+
+
+no rows selected
+
+
+no rows selected
+
+
+M                                                                               
+-                                                                               
+                                                                                
+
+
+0 rows updated.
+
+
+no rows selected
+
+
+no rows selected
+
+
+0 rows updated.
+
+
+no rows selected
+
+
+no rows selected
+
+SQL> start a1_values_JLAI.sql
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+SQL> start a1_queries_JLAI.sql
+
+NAME                 PRICE   CALORIES                                           
+--------------- ---------- ----------                                           
+chips                    1        180                                           
+oatmeal                  3        120                                           
+noodles                  3        200                                           
+fruit_plate              8        220                                           
+broccoli pie            10        200                                           
+chicken pie             10        350                                           
+steak                   20        420                                           
+
+7 rows selected.
+
+
+NAME                 PRICE   CALORIES                                           
+--------------- ---------- ----------                                           
+chips                    1        180                                           
+oatmeal                  3        120                                           
+noodles                  3        200                                           
+fruit_plate              8        220                                           
+broccoli pie            10        200                                           
+chicken pie             10        350                                           
+steak                   20        420                                           
+
+7 rows selected.
+
+
+NAME            M                                                               
+--------------- -                                                               
+fruit_plate     L                                                               
+steak           L                                                               
+noodles         L                                                               
+chips           L                                                               
+
+
+M                                                                               
+-                                                                               
+L                                                                               
+
+
+1 row updated.
+
+
+     PRICE                                                                      
+----------                                                                      
+         3                                                                      
+         8                                                                      
+        20                                                                      
+        10                                                                      
+        10                                                                      
+         3                                                                      
+         1                                                                      
+
+7 rows selected.
+
+
+ME DAYS_ORDERED                                                                 
+-- ------------                                                                 
+M2            6                                                                 
+M7            1                                                                 
+M3           16                                                                 
+M1           21                                                                 
+M5           30                                                                 
+M6            1                                                                 
+
+6 rows selected.
+
+
+1 row updated.
+
+
+NAME                 PRICE                                                      
+--------------- ----------                                                      
+oatmeal                  3                                                      
+fruit_plate              8                                                      
+steak                   20                                                      
+chicken pie              9                                                      
+broccoli pie            10                                                      
+noodles                  3                                                      
+chips                    1                                                      
+
+7 rows selected.
+
+
+PHONE      ACC ACC                                                              
+---------- --- ---                                                              
+4086661212 A6  A9                                                               
+4085551212 A1  A10                                                              
+
+SQL> spool off;

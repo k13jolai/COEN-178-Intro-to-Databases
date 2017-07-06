@@ -1,0 +1,16 @@
+Part 1)
+	a)After trying to insert the value into Schedule, I received an error saying JLAI.DAYCONSTRAINT was violated.
+	This is because there is a constraint on day that checks that the entered day is a weekday (m,t,w,r,f). Since the day entered was not 
+	on the table, the constraint was not satisfied. 
+
+	b)After trying to enter the second value into the table, I received an error constraint saying that the parent key was not found. I believe that this
+	is because the first value dne5 is supposed to be a reference to the table "DeliveryService." Since dne5 is not a valid value in dne5, the constraint
+	was not satisfied. 
+
+Part 3)
+	b) No, the correct result was not produced
+	c) It is a non-correlated subquery 
+	d) The reason is because the subquery is always true. 
+	
+	                                            
+

@@ -1,0 +1,16 @@
+Lab 1:
+Jordan Lai
+Part 1:
+Yes, I do see the message: "Table created," at the SQL prompt.
+
+Using SELECT * FROM trial, I was able to see all the tuples I entered. 
+
+By duplicating the code from the first addition I was able to add a duplicate tuple.
+
+I was not able to insert a duplicate into the table with the primary key. 
+
+I can see the tables (trial and test) that I have created. 
+
+After dropping trial, I can only see the table: "TEST."
+
+Part 2:

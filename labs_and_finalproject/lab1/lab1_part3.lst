@@ -1,0 +1,60 @@
+SQL> CREATE TABLE mycourses(
+  2  units int,
+  3  grade char(2),
+  4  courseNo char(10), PRIMARY KEY(courseNo)
+  5  );
+
+Table created.
+
+SQL> start home/jlai/data2.sql
+SP2-0310: unable to open file "home/jlai/data2.sql"
+SQL> start /home/jlai/data2.sql
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+SQL> start home/jlai/COEN178/[D[D[D[D[D[D
+SP2-0310: unable to open file "home/jlai/COEN178/[D[D[D[D[D[D.sql"
+SQL> start /home/jlai/COEN178/labs/lab1/P3Quer.sql
+
+     UNITS GR COURSENO                                                          
+---------- -- ----------                                                        
+         1 A  ENGR1                                                             
+         5 C  COEN177                                                           
+         5 B  TESP175                                                           
+         5 B  COEN70                                                            
+         5 B  COEN 19                                                           
+         5 C  COEN 11                                                           
+
+6 rows selected.
+
+
+no rows selected
+
+
+COURSENO                                                                        
+----------                                                                      
+ENGR1                                                                           
+
+
+COURSENO        UNITS                                                           
+---------- ----------                                                           
+COEN177             5                                                           
+COEN 11             5                                                           
+
+SQL> 
+SQL> exit

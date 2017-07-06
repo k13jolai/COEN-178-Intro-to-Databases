@@ -1,0 +1,8 @@
+CREATE OR REPLACE TRIGGER display_account_trig
+	AFTER INSERT ON accounts_6 
+	FOR EACH ROW 
+BEGIN
+	PRINT 'Account number' | :new.accountno | 'Account type' | :new.accounttype | ''
+END display_account_trig;
+/
+show errors;

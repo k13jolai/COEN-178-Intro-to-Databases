@@ -1,0 +1,8 @@
+INSERT INTO bankcust_6 VALUES('8','Jessie','Stoneridge','SJ');
+INSERT INTO bankcust_6 VALUES('9','James','El Camino','SF');
+
+INSERT INTO accounts_6 VALUES('10','Checking',300,'8');
+INSERT INTO accounts_6 VALUES('11','Checking',200,'9');
+
+INSERT INTO billpay_6 VALUES('2','8','10',100);
+INSERT INTO billpay_6 VALUES('3','9','11',100);

@@ -1,0 +1,2 @@
+Part 3. The reason this query will not work is because MAX() returns one value, but group by deptid will 
+try and group the information by each department, not a single row. 

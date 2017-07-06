@@ -1,0 +1,4 @@
+/*Part 1)
+1) The insert in part 1 fails because the trigger iteminsert_after_insert_trig
+wants to call a value into v_quantity such that orderNo=o1.However, because the table is changing while
+the trigger is fired, the query in the trigger is missing the changes being added to the table. */ 
